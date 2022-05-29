@@ -41,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.li-block, .subtitle {
+.li-block,
+.subtitle {
   list-style: none;
 }
-.input, .buttons{
+.input,
+.buttons {
   outline: none;
 }
 .buttons {
