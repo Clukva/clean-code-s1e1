@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.start-block {
+.start {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.start-block img {
+.start img {
   width: 100%;
 }
-.start-block .more-inf {
+.start .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .start-block { text-align: center;
+  .start { text-align: center;
 }
 }
-.main-block {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through
   color: #888;
 }
